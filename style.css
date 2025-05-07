@@ -1,0 +1,223 @@
+/* Resetando margens e preenchimentos para garantir consistência */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilo geral do corpo da página */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f1f1f1;
+  color: #333;
+}
+
+/* Cabeçalho */
+header {
+  background-color: #004aad;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+header h1 {
+  font-size: 2.8em;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.2em;
+}
+
+/* Menu de navegação */
+nav {
+  background-color: #058303;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  flex-wrap: wrap;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 10px 15px;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+nav a:hover {
+  color: #62510e;
+}
+
+/* Seção principal de conteúdo */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 40px 20px;
+  gap: 30px;
+  justify-content: center;
+}
+
+/* Cards de conteúdo */
+.card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  flex: 1 1 350px;
+  max-width: 600px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
+}
+
+.card h2 {
+  color: #004aad;
+  margin-bottom: 10px;
+}
+
+.card p {
+  text-align: justify;
+  line-height: 1.6;
+}
+
+.card ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+/* Rodapé */
+footer {
+  background-color: #3ec763;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  font-size: 0.9em;
+}
+
+/* Responsividade: Ajuste para telas pequenas */
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    max-width: 90%;
+  }
+
+.card video{
+
+
+
+
+}
+
+}
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilo geral */
+body {
+  font-family: 'Merriweather', serif;
+  background-color: #fff8dc; /* tom suave de amarelo claro */
+  color: #333;
+  line-height: 1.6;
+  text-align: center;
+}
+
+/* Cabeçalho */
+header {
+  background-color: #ffcc00; /* amarelo vibrante */
+  color: #003d43; /* azul escuro */
+  padding: 60px 20px;
+}
+
+header h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.2em;
+}
+
+/* Container de conteúdo */
+.container {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+h2 {
+  color: #e6a800; /* amarelo mais escuro */
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+p {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Rodapé */
+footer {
+  background-color: #ffcc00;
+  color: #003d43;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 2.2em;
+  }
+
+  h2 {
+    font-size: 1.6em;
+  }
+}
+
+img{
+
+width: 350px;
+border-radius: 2%;
+
+
+
+
+}
+
+
+video{
+
+
+border-radius: 2%;
+width: 500px;
+
+
+
+
+
+
+}
+
+
+
+
+
